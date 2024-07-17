@@ -1,16 +1,16 @@
 <div align="center">
 
-# Bingo 
+# Bingx
 
-Bingo，一个让你呼吸顺畅 New Bing。
+Bingx，一个让你呼吸顺畅 New Bing。
 
 高度还原 New Bing 网页版的主要操作，国内可用，兼容绝大多数微软 Bing AI 的功能，可自行部署使用。
 
-![Github stars](https://badgen.net/github/stars/weaigc/bingo?icon=github&label=stars)
-![Gthub issues](https://img.shields.io/github/issues/weaigc/bingo)
-[![docker build](https://github.com/weaigc/bingo/actions/workflows/docker.yml/badge.svg)](https://hub.docker.com/repository/docker/weaigc/bingo/)
-[![docker hub](https://badgen.net/docker/size/weaigc/bingo?icon=docker&label=image%20size)](https://hub.docker.com/repository/docker/weaigc/bingo/)
-[![MIT License](https://img.shields.io/badge/license-MIT-97c50f)](https://github.com/weaigc/bingo/blob/main/license)
+![Github stars](https://badgen.net/github/stars/jackzzs/bingx?icon=github&label=stars)
+![Gthub issues](https://img.shields.io/github/issues/jackzzs/bingx)
+[![docker build](https://github.com/jackzzs/bingx/actions/workflows/docker.yml/badge.svg)](https://hub.docker.com/repository/docker/jackzzs/bingx/)
+[![docker hub](https://badgen.net/docker/size/jackzzs/bingx?icon=docker&label=image%20size)](https://hub.docker.com/repository/docker/jackzzs/bingx/)
+[![MIT License](https://img.shields.io/badge/license-MIT-97c50f)](https://github.com/jackzzs/bingx/blob/main/license)
 
 </div>
 
@@ -57,7 +57,7 @@ Bingo，一个让你呼吸顺畅 New Bing。
 
 ## 在线部署
 #### 部署到 CodeSandbox（推荐）
-点击 [![一键部署到 CodeSandbox](https://img.shields.io/badge/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2-CodeSandBox-blue)](https://codesandbox.io/p/devbox/github/weaigc/bingo/tree/main?import=true)，点击右上角 “Fork”，然后一路点 “Next” 即可（没有注册账号的注册完账号后重试即可）。
+点击 [![一键部署到 CodeSandbox](https://img.shields.io/badge/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2-CodeSandBox-blue)](https://codesandbox.io/p/devbox/github/jackzzs/bingx/tree/main?import=true)，点击右上角 “Fork”，然后一路点 “Next” 即可（没有注册账号的注册完账号后重试即可）。
 
 #### 部署到 Render
 感谢 [@SokWith](https://github.com/SokWith) 测试，Render 目前已复活。
@@ -67,7 +67,7 @@ Bingo，一个让你呼吸顺畅 New Bing。
 当前面的方式都不能用的时候，可以使用代理模式，然后将域名解析到自己的服务器上，做为折中的办法继续使用。
 #### 1. 部署到 Replit（推荐）
 
-[点击部署Replit](https://replit.com/@weaigc/bingo?v=1)
+[点击部署Replit](https://replit.com/@jackzzs/bingx?v=1)
 
 #### 2. 部署到 CloudFlare (需要有自己的域名才可以)
 
@@ -86,7 +86,7 @@ Bingo，一个让你呼吸顺畅 New Bing。
 <summary>
 <del>以下为已经被封杀的部署方式</del>
 
-V2 版本已解决此问题，详见: https://github.com/weaigc/bingo/tree/v2
+V2 版本已解决此问题，详见: https://github.com/jackzzs/bingx/tree/v2
 </summary>
 
 #### 部署到 HuggingFace
@@ -97,7 +97,7 @@ V2 版本已解决此问题，详见: https://github.com/weaigc/bingo/tree/v2
 
 
 #### 部署到 Netlify
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/weaigc/bingo)
+[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jackzzs/bingx)
 
 #### 部署到 Vercel
 如果你是 Vercel 付费用户，可以点以下链接一键部署到 Vercel。免费版本有[接口超时限制](https://vercel.com/docs/concepts/limits/overview)，不推荐使用
@@ -120,7 +120,7 @@ V2 版本已解决此问题，详见: https://github.com/weaigc/bingo/tree/v2
 * 使用 Node 启动
 
 ```bash
-git clone https://github.com/weaigc/bingo.git
+git clone https://github.com/jackzzs/bingx.git
 npm i
 cd bingo
 npm run build
@@ -129,10 +129,10 @@ npm run start
 
 * 使用 Docker 启动
 ```bash
-docker pull weaigc/bingo
-docker run --rm -it -p 7860:7860 weaigc/bingo
+docker pull jackzzs/bingx
+docker run --rm -it -p 7860:7860 jackzzs/bingx
 # 如果不能正常使用，可以尝试设置环境变量 BING_HEADER
-docker run --rm -it -e BING_HEADER=xxxx -p 7860:7860 weaigc/bingo
+docker run --rm -it -e BING_HEADER=xxxx -p 7860:7860 jackzzs/bingx
 # 如果还是不行，可以尝试 proxy 模式
 ```
 
@@ -216,16 +216,16 @@ Y3VybCAnaHR0cHM6Ly93d3cuYmluZy5jb20vdHVyaW5nL2NvbnZlcnNhdGlvbi9jcmVhdGUnIFwgICAt
 
 ## Star History
 
-<a href="https://star-history.com/#weaigc/bingo&Date">
+<a href="https://star-history.com/#jackzzs/bingx&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=weaigc/bingo&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=weaigc/bingo&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=weaigc/bingo&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=jackzzs/bingx&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=jackzzs/bingx&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=jackzzs/bingx&type=Date" />
   </picture>
 </a>
 
 ## License
 
-MIT © [LICENSE](https://github.com/weaigc/bingo/blob/main/LICENSE).
+MIT © [LICENSE](https://github.com/jackzzs/bingx/blob/main/LICENSE).
 
 
