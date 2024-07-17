@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: bingo
+  name: bingx
   env: docker
   autoDeploy: true
   healthCheckPath: /api/healthz
